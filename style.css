@@ -199,6 +199,57 @@ nav {
     font-size: 0.75rem;
     border-radius: 10px;
   }
+  /* =========================
+   FIX REAL MOBILE (FORZADO)
+   ========================= */
+
+@media (max-width: 640px) {
+
+  /* 🔍 BUSCADOR */
+  .hero .hero-search {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 6px !important;
+    max-width: 200px !important;
+    margin: 0 auto !important;
+  }
+
+  .hero .hero-search input {
+    width: 100% !important;
+    min-height: 34px !important;
+    padding: 6px 10px !important;
+    font-size: 0.78rem !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+  }
+
+  .hero .search-btn {
+    width: 100% !important;
+    min-height: 32px !important;
+    padding: 6px !important;
+    font-size: 0.7rem !important;
+    border-radius: 8px !important;
+  }
+
+  /* 🏃‍♂️ CAJAS (ANTES ESTABAN OCULTAS) */
+  .hero .hero-races {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 6px !important;
+    margin-top: 10px !important;
+  }
+
+  .hero .hero-race-badge {
+    padding: 6px 8px !important;
+    font-size: 0.7rem !important;
+    border-radius: 8px !important;
+  }
+
+  .hero .month {
+    font-size: 0.65rem !important;
+  }
+}
+  
 
 }
 
