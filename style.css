@@ -968,6 +968,22 @@ footer {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .about-broadcast {
+    grid-template-columns: 1fr;
+  }
+
+  .about-screen {
+    min-height: 340px;
+  }
+
+  .page-panel {
+    min-height: 220px;
+  }
+
+  .included-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 640px) {
@@ -1007,8 +1023,8 @@ footer {
 
   .hero-search {
     flex-direction: column;
-    gap: 8px;
-    max-width: 320px;
+    gap: 7px;
+    max-width: 250px;
     margin: 0 auto;
   }
 
@@ -1024,17 +1040,19 @@ footer {
   }
 
   .hero-search input {
-    min-height: 46px;
-    padding: 11px 14px;
-    font-size: 0.92rem;
+    min-height: 38px;
+    padding: 8px 10px;
+    font-size: 0.84rem;
     text-align: center;
+    border-radius: 10px;
   }
 
   .search-btn {
-    min-height: 44px;
-    padding: 10px 14px;
-    font-size: 0.82rem;
-    letter-spacing: 0.08em;
+    min-height: 36px;
+    padding: 8px 10px;
+    font-size: 0.74rem;
+    letter-spacing: 0.06em;
+    border-radius: 10px;
   }
 
   .hero-races,
@@ -1043,7 +1061,7 @@ footer {
   .why-grid,
   .gallery-grid,
   .about-stats,
-  .about-stats {
+  .included-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1074,6 +1092,27 @@ footer {
   }
 }
 
+@media (max-width: 430px) {
+  .hero-search {
+    max-width: 220px;
+    gap: 6px;
+  }
+
+  .hero-search input {
+    min-height: 36px;
+    padding: 7px 10px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+  }
+
+  .search-btn {
+    min-height: 34px;
+    padding: 7px 10px;
+    font-size: 0.7rem;
+    border-radius: 8px;
+  }
+}
+
 .page-destinations {
   background: #f3f3ef;
 }
@@ -1081,8 +1120,7 @@ footer {
 .page-destinations .section--destinations {
   position: relative;
   overflow: hidden;
-  background:
-    linear-gradient(180deg, #f6f7f8 0%, #eceff2 100%);
+  background: linear-gradient(180deg, #f6f7f8 0%, #eceff2 100%);
 }
 
 .page-destinations .section-inner {
@@ -1681,30 +1719,4 @@ footer {
 .page-gallery .section-title em,
 .page-contact .section-title em {
   color: #00aee0;
-}
-
-@media (max-width: 980px) {
-  .about-broadcast {
-    grid-template-columns: 1fr;
-  }
-
-  .about-screen {
-    min-height: 340px;
-  }
-
-  .page-panel {
-    min-height: 220px;
-  }
-}
-
-@media (max-width: 980px) {
-  .included-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 640px) {
-  .included-grid {
-    grid-template-columns: 1fr;
-  }
 }
