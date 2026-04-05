@@ -98,7 +98,7 @@ nav {
 
 .nav-logo {
   font-family: "Barlow Condensed", sans-serif;
-  font-size: clamp(3.8rem, 8vw, 5.6rem);
+  font-size: clamp(1.45rem, 1.8vw, 1.85rem);
   font-weight: 800;
   text-decoration: none;
   letter-spacing: 0.04em;
@@ -310,7 +310,7 @@ nav {
 .hero h1 {
   margin: 0 0 14px;
   font-family: "Barlow Condensed", sans-serif;
-  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-size: clamp(2.8rem, 6vw, 4.6rem);
   line-height: 0.95;
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -1024,7 +1024,7 @@ footer {
 
   .hero::before {
     background:
-      linear-gradient(180deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0.14) 48%, rgba(0, 0, 0, 0.42) 100%);
+      linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(0, 0, 0, 0.08) 42%, rgba(0, 0, 0, 0.18) 100%);
   }
 
   .hero-inner {
@@ -1058,13 +1058,16 @@ footer {
   .hero-title,
   .hero h1 {
     max-width: 12ch;
-    font-size: clamp(1.3rem, 6vw, 1.8rem);
-    text-shadow: 0 3px 12px rgba(0, 0, 0, 0.55);
+    font-size: clamp(1.55rem, 7vw, 2.15rem);
+    color: rgba(255, 255, 255, 0.98);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.28);
   }
 
   .hero-eyebrow {
-    font-size: 0.58rem;
-    letter-spacing: 0.14em;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.68rem;
+    letter-spacing: 0.16em;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
   }
 
   .hero-search {
@@ -1208,7 +1211,8 @@ footer {
 
   .hero-title,
   .hero h1 {
-    font-size: clamp(1.18rem, 6vw, 1.5rem);
+    font-size: clamp(1.34rem, 6.5vw, 1.78rem);
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.22);
   }
 
   .hero-search input {
@@ -1886,6 +1890,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
