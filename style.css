@@ -1007,6 +1007,9 @@ footer {
 
   .hero-search {
     flex-direction: column;
+    gap: 8px;
+    max-width: 320px;
+    margin: 0 auto;
   }
 
   .hero-search input,
@@ -1018,6 +1021,20 @@ footer {
   .btn,
   .btn--primary {
     width: 100%;
+  }
+
+  .hero-search input {
+    min-height: 46px;
+    padding: 11px 14px;
+    font-size: 0.92rem;
+    text-align: center;
+  }
+
+  .search-btn {
+    min-height: 44px;
+    padding: 10px 14px;
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
   }
 
   .hero-races,
