@@ -16,6 +16,19 @@
 <body class="page-home">
   <nav>
     <a href="index.html" class="nav-logo">6 Majors</a>
+    <form class="hero-search" role="search" action="destinations.html" method="get">
+  <input type="text" name="q" placeholder="Tokyo, Boston, London..." list="races" autocomplete="off" />
+  <datalist id="races">
+    <option value="Tokyo">
+    <option value="Boston">
+    <option value="London">
+    <option value="Berlin">
+    <option value="Chicago">
+    <option value="New York">
+  </datalist>
+  <button type="submit" class="search-btn">Search</button>
+</form>
+
     <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
     <label for="nav-toggle" class="nav-hamburger" aria-label="Open menu">
       <span></span><span></span><span></span>
@@ -39,18 +52,7 @@
     <div class="hero-inner">
       <p class="hero-eyebrow">Abbott World Marathon Majors Travel</p>
       <h1 class="hero-title">Run the world.<br /><em>Here starts your journey.</em></h1>
-      <form class="hero-search" role="search" action="destinations.html" method="get">
-        <input type="text" name="q" placeholder="Tokyo, Boston, London..." list="races" autocomplete="off" />
-        <datalist id="races">
-          <option value="Tokyo">
-          <option value="Boston">
-          <option value="London">
-          <option value="Berlin">
-          <option value="Chicago">
-          <option value="New York">
-        </datalist>
-        <button type="submit" class="search-btn">Search</button>
-      </form>
+    
     </div>
     <div class="hero-races" aria-hidden="true">
       <div class="hero-race-badge"><span class="dot"></span>Tokyo<span class="month">March</span></div>
